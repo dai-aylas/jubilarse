@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Puedo jubilarme?</title>
+    <script src="script.js"></script> 
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+<body>
+    <div class="content">
+        <h1>¿Puedo jubilarme?</h1>
+
+        <div class="Datos">
+            <div class="ingresar">
+                <p>Ingrese su sexo</p>
+            <select id="Sexo">
+                <option value="FEMENINO">Femenino</option>
+                <option value="MASCULINO">Masculino</option>
+            </select>
+            </div>
+            
+            <div class="ingresar">
+                <p>Ingrese su edad</p>
+            <input type="text" id="Edad">
+            </div>
+        </div>
+
+        <button onclick="PuedoJubilarme()">calcular</button>
+
+        <div class="ingresar">
+            <h1>Resultado...</h1>
+            <p id="Resultado"></p>
+        </div>
+    </div>
+</body>
+</html>
